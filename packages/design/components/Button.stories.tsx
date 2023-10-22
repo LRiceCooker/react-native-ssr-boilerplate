@@ -1,5 +1,4 @@
-import { Provider } from '@my/app/provider';
-import Button from './Button'
+import {Button} from './Button'
 
 
 export default {
