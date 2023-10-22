@@ -1,6 +1,6 @@
 # React Native SSR Boilerplate
 
-👋 Welcome to my React Native boilerplate project! This starter kit is a labor of love, inspired by the amazing technologies that have fueled my passion for cross-platform app development. This project is based on [next-expo-solito from Tamagui project](https://github.com/tamagui/tamagui/tree/master/starters/next-expo-solito).
+👋 Welcome to my React Native boilerplate project! This starter kit is a labor of love, inspired by the amazing technologies that have fueled my passion for cross-platform app development. This project is based on [next-expo-solito from Tamagui project](https://github.com/tamagui/tamagui/tree/master/starters/next-expo-solito) .
 
 ## What's Inside?
 
@@ -54,7 +54,7 @@ const Foo = () => {
   )
 }
 ```
-`useLaryVariants` will overload your tamagui components with [Lary](https://github.com/RiceCooker-dev/Lary) props, more documentation here : https://github.com/RiceCooker-dev/Lary/blob/master/doc/doc.md .
+`useLaryVariants` will overload your tamagui components with [Lary](https://github.com/RiceCooker-dev/Lary) props, more documentation [here](https://github.com/RiceCooker-dev/Lary/blob/master/doc/doc.md) .
 
 
 ## Credits
