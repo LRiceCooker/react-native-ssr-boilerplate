@@ -54,7 +54,7 @@ const Foo = () => {
   )
 }
 ```
-`useLaryVariants` will surcharge your tamagui components with [Lary](https://github.com/RiceCooker-dev/Lary) props, more documentation here : https://github.com/RiceCooker-dev/Lary/blob/master/doc/doc.md .
+`useLaryVariants` will overload your tamagui components with [Lary](https://github.com/RiceCooker-dev/Lary) props, more documentation here : https://github.com/RiceCooker-dev/Lary/blob/master/doc/doc.md .
 
 
 ## Credits
