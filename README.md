@@ -43,7 +43,7 @@ To get started, use the following commands:
 - `run:storybook`: Launch Storybook for component development.
 
 ## Utils
-```typescript
+```tsx
 import { Text as TamaText } from 'tamagui'
 import { useLaryVariants } from '@my/ui'
 
