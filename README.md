@@ -1,6 +1,6 @@
 # React Native SSR Boilerplate
 
-👋 Welcome to my React Native boilerplate project! This starter kit is a labor of love, inspired by the amazing technologies that have fueled my passion for cross-platform app development. It might not be perfect, but it's crafted with enthusiasm and humility. This project is based on [next-expo-solito from Tamagui project](https://github.com/tamagui/tamagui/tree/master/starters/next-expo-solito).
+👋 Welcome to my React Native boilerplate project! This starter kit is a labor of love, inspired by the amazing technologies that have fueled my passion for cross-platform app development. This project is based on [next-expo-solito from Tamagui project](https://github.com/tamagui/tamagui/tree/master/starters/next-expo-solito).
 
 ## What's Inside?
 
@@ -41,6 +41,21 @@ To get started, use the following commands:
 - `run:mobile`: Run the mobile application.
 - `run:desktop`: Run the desktop application.
 - `run:storybook`: Launch Storybook for component development.
+
+## Utils
+```typescript
+import { Text as TamaText } from 'tamagui'
+import { useLaryVariants } from '@my/ui'
+
+const Foo = () => {
+  const Text = useLaryVariants<typeof TamaText>(TamaText); 
+  return (
+    <Text textBold inSuccess>Hi !</Text>
+  )
+}
+```
+`useLaryVariants` will surcharge your tamagui components with Lary props, more documentation here : https://github.com/RiceCooker-dev/Lary/blob/master/doc/doc.md .
+
 
 ## Credits
 
