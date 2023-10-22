@@ -1,0 +1,11 @@
+{
+  "name": "@my/design",
+  "version": "1.0.0",
+  "description": "Here it's all about components and stories",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

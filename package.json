@@ -1,0 +1,46 @@
+{
+  "name": "react-native-ssr-boilerplate",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "upgrade:tamagui": "yarn up '*tamagui*'@latest '@tamagui/*'@latest react-native-web-lite@latest",
+    "upgrade:tamagui:canary": "yarn up '*tamagui*'@canary '@tamagui/*'@canary react-native-web-lite@canary",
+    "update:browserlist": "cd apps/next && npx browserslist@latest --update-db",
+    "build:types": "cd packages/ui && yarn build",
+    "build:desktop": "cd packages/ui && yarn tauri build",
+    "run:web": "yarn build && cd apps/next && yarn next",
+    "run:web:prod":"yarn workspace next-app build",
+    "run:mobile": "cd apps/expo && yarn start",
+    "run:desktop": "cd apps/next && yarn tauri dev",
+    "run:storybook":"cd apps/next && yarn storybook",
+
+    "watch": "yarn workspaces foreach -pi run watch",
+    "vercel:install": "yarn set version 3.5 && yarn install",
+    "web:extract": "DISABLE_EXTRACTION=false yarn workspace next-app dev",
+    "fix": "manypkg fix",
+    "postinstall": "yarn check-deps && yarn build",
+    "build": "yarn workspaces foreach --exclude next-app run build",
+    "check-deps": "check-dependency-version-consistency ."
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-refresh": "^0.14.0",
+    "react-native-svg": "13.4.0",
+    "react-native-web": "^0.18.12"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "@manypkg/cli": "^0.19.1",
+    "check-dependency-version-consistency": "^3.0.3",
+    "eslint": "^8.21.0",
+    "node-gyp": "^9.3.1",
+    "prettier": "^2.7.1",
+    "turbo": "^1.10.3",
+    "typescript": "^5.1.3"
+  },
+  "packageManager": "yarn@3.5.0"
+}
