@@ -1,6 +1,6 @@
 # React Native SSR Boilerplate
 
-👋 Welcome to my React Native boilerplate project! This starter kit is a labor of love, inspired by the amazing technologies that have fueled my passion for cross-platform app development. It might not be perfect, but it's crafted with enthusiasm and humility.
+👋 Welcome to my React Native boilerplate project! This starter kit is a labor of love, inspired by the amazing technologies that have fueled my passion for cross-platform app development. It might not be perfect, but it's crafted with enthusiasm and humility. This project is based on [next-expo-solito from Tamagui project](https://github.com/tamagui/tamagui/tree/master/starters/next-expo-solito).
 
 ## What's Inside?
 
