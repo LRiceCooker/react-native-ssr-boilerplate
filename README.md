@@ -26,7 +26,7 @@ Before diving into this project, make sure you've taken a look at the following 
 This project operates as a monorepo and consists of three main packages:
 
 1. **@my/ui**: Handles theming, variants, and more.
-2. **@my/app**: Manages the various components of the application.
+2. **@my/app**: Manages the various elements of the application.
 3. **@my/design**: Takes care of components and their documentation using Storybook.
 
 To get started, use the following commands:
