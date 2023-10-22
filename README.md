@@ -8,7 +8,7 @@ This project is a synthesis of several fantastic technologies:
 
 - [Tauri](https://tauri.app/): A framework for building desktop apps with web technologies.
 - [Tamagui](https://tamagui.dev/): A tool for creating delightful cross-platform apps.
-- [Solito](https://solito.dev/): A monorepo management system that simplifies your project structure.
+- [Solito](https://solito.dev/): A monorepo management system for building crossplateform apps (Expo & Next.js).
 - [Storybook](https://storybook.js.org/): A tool for developing UI components in isolation.
 
 ## Prerequisites
