@@ -12,11 +12,10 @@
     "build:types": "cd packages/ui && yarn build",
     "build:desktop": "cd packages/ui && yarn tauri build",
     "run:web": "yarn build && cd apps/next && yarn next",
-    "run:web:prod":"yarn workspace next-app build",
+    "run:web:prod": "yarn workspace next-app build",
     "run:mobile": "cd apps/expo && yarn start",
     "run:desktop": "cd apps/next && yarn tauri dev",
-    "run:storybook":"cd apps/next && yarn storybook",
-
+    "run:storybook": "cd apps/next && yarn storybook",
     "watch": "yarn workspaces foreach -pi run watch",
     "vercel:install": "yarn set version 3.5 && yarn install",
     "web:extract": "DISABLE_EXTRACTION=false yarn workspace next-app dev",

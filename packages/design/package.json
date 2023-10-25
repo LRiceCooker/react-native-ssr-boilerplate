@@ -1,6 +1,6 @@
 {
   "name": "@my/design",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Here it's all about components and stories",
   "main": "index.ts",
   "scripts": {

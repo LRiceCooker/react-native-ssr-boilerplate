@@ -5002,6 +5002,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@my/app@workspace:packages/app"
   dependencies:
+    "@my/design": 0.0.1
     "@my/ui": 0.0.1
     "@tamagui/animations-react-native": latest
     "@tamagui/colors": latest
@@ -5019,7 +5020,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@my/design@workspace:packages/design":
+"@my/design@0.0.1, @my/design@workspace:packages/design":
   version: 0.0.0-use.local
   resolution: "@my/design@workspace:packages/design"
   languageName: unknown
