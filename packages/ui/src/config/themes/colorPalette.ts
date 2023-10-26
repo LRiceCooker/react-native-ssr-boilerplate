@@ -1,6 +1,7 @@
 import tokens from '../tokens'
 
 const light = {
+    primary: tokens.color.lprimary,
     success: tokens.color.lsuccess,
     warning: tokens.color.lwarning,
     secondary: tokens.color.lsecondary,
@@ -14,6 +15,7 @@ const light = {
 }
 
 const dark = {
+    primary: tokens.color.dprimary,
     success: tokens.color.dsuccess,
     warning: tokens.color.dwarning,
     secondary: tokens.color.dsecondary,

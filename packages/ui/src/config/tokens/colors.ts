@@ -1,4 +1,5 @@
 export const color = {
+    lprimary: "#407B38",
     lsuccess: "#407AA8",
     lwarning: "#51ACF5",
     lsecondary: "#8AF494",
@@ -10,6 +11,8 @@ export const color = {
     lwhite: "#FFFFFF",
     lblack: "#000000",
 
+
+    dprimary: "",
     dsuccess: "",
     dwarning: "",
     dsecondary: "",

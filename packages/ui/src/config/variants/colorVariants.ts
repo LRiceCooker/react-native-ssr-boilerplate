@@ -2,6 +2,11 @@
 
 
 const colorVariants= {
+    bdPrimary: {
+        true: {
+            borderColor: '$primary'
+        }
+    },
     bdSuccess: {
         true: {
             borderColor: '$success'
@@ -52,6 +57,11 @@ const colorVariants= {
             borderColor: '$black'
         }
     },
+    inPrimary: {
+        true: {
+            color: '$primary'
+        }
+    },
     inSuccess: {
         true: {
             color: '$success'
@@ -100,6 +110,11 @@ const colorVariants= {
     inBlack: {
         true: {
             color: '$black'
+        }
+    },
+    bgPrimary: {
+        true: {
+            backgroundColor: '$primary'
         }
     },
     bgSuccess: {
