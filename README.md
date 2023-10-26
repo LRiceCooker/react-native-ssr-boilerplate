@@ -25,6 +25,11 @@ Before diving into this project, make sure you've taken a look at the following 
 
 ## Installation and Usage
 
+### Tauri (dev)
+- Setting up [macos](https://tauri.app/v1/guides/getting-started/prerequisites/#setting-up-macos)
+- Setting up [linux](https://tauri.app/v1/guides/getting-started/prerequisites/#setting-up-linux)
+
+
 This project operates as a monorepo and consists of three main packages:
 
 1. **@my/ui**: Handles theming, variants, and more.
