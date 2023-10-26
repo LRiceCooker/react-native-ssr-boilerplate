@@ -1,203 +1,205 @@
 
+import tokens from '../tokens'
+
 const spacingVariants = {
     m1: {
         true: {
-            margin: "$spacing.m1"
+            margin: tokens.spacing.spacing1
         }
     },
     m2: {
         true: {
-            margin: "$spacing.m2"
+            margin: tokens.spacing.spacing2
         }
     },
     m3: {
         true: {
-            margin: "$spacing.m3"
+            margin: tokens.spacing.spacing3
         }
     },
     m4: {
         true: {
-            margin: "$spacing.m4"
+            margin: tokens.spacing.spacing4
         }
     },
     m5: {
         true: {
-            margin: "$spacing.m5"
+            margin: tokens.spacing.spacing5
         }
     },
     m6: {
         true: {
-            margin: "$spacing.m6"
+            margin: tokens.spacing.spacing6
         }
     },
     m7: {
         true: {
-            margin: "$spacing.m7"
+            margin: tokens.spacing.spacing7
         }
     },
     m8: {
         true: {
-            margin: "$spacing.m8"
+            margin: tokens.spacing.spacing8
         }
     },
     mr1: {
         true: {
-            marginRight: "$spacing.m1"
+            marginRight: tokens.spacing.spacing1
         }
     },
     mr2: {
         true: {
-            marginRight: "$spacing.m2"
+            marginRight: tokens.spacing.spacing2
         }
     },
     mr3: {
         true: {
-            marginRight: "$spacing.m3"
+            marginRight: tokens.spacing.spacing3
         }
     },
     mr4: {
         true: {
-            marginRight: "$spacing.m4"
+            marginRight: tokens.spacing.spacing4
         }
     },
     mr5: {
         true: {
-            marginRight: "$spacing.m5"
+            marginRight: tokens.spacing.spacing5
         }
     },
     mr6: {
         true: {
-            marginRight: "$spacing.m6"
+            marginRight: tokens.spacing.spacing6
         }
     },
     mr7: {
         true: {
-            marginRight: "$spacing.m7"
+            marginRight: tokens.spacing.spacing7
         }
     },
     mr8: {
         true: {
-            marginRight: "$spacing.m8"
+            marginRight: tokens.spacing.spacing8
         }
     },
     ml1: {
         true: {
-            marginLeft: "$spacing.m1"
+            marginLeft: tokens.spacing.spacing1
         }
     },
     ml2: {
         true: {
-            marginLeft: "$spacing.m2"
+            marginLeft: tokens.spacing.spacing2
         }
     },
     ml3: {
         true: {
-            marginLeft: "$spacing.m3"
+            marginLeft: tokens.spacing.spacing3
         }
     },
     ml4: {
         true: {
-            marginLeft: "$spacing.m4"
+            marginLeft: tokens.spacing.spacing4
         }
     },
     ml5: {
         true: {
-            marginLeft: "$spacing.m5"
+            marginLeft: tokens.spacing.spacing5
         }
     },
     ml6: {
         true: {
-            marginLeft: "$spacing.m6"
+            marginLeft: tokens.spacing.spacing6
         }
     },
     ml7: {
         true: {
-            marginLeft: "$spacing.m7"
+            marginLeft: tokens.spacing.spacing7
         }
     },
     ml8: {
         true: {
-            marginLeft: "$spacing.m8"
+            marginLeft: tokens.spacing.spacing8
         }
     },
     mt1: {
         true: {
-            marginTop: "$spacing.m1"
+            marginTop: tokens.spacing.spacing1
         }
     },
     mt2: {
         true: {
-            marginTop: "$spacing.m2"
+            marginTop: tokens.spacing.spacing2
         }
     },
     mt3: {
         true: {
-            marginTop: "$spacing.m3"
+            marginTop: tokens.spacing.spacing3
         }
     },
     mt4: {
         true: {
-            marginTop: "$spacing.m4"
+            marginTop: tokens.spacing.spacing4
         }
     },
     mt5: {
         true: {
-            marginTop: "$spacing.m5"
+            marginTop: tokens.spacing.spacing5
         }
     },
     mt6: {
         true: {
-            marginTop: "$spacing.m6"
+            marginTop: tokens.spacing.spacing6
         }
     },
     mt7: {
         true: {
-            marginTop: "$spacing.m7"
+            marginTop: tokens.spacing.spacing7
         }
     },
     mt8: {
         true: {
-            marginTop: "$spacing.m8"
+            marginTop: tokens.spacing.spacing8
         }
     },
     mb1: {
         true: {
-            marginBottom: "$spacing.m1"
+            marginBottom: tokens.spacing.spacing1
         }
     },
     mb2: {
         true: {
-            marginBottom: "$spacing.m2"
+            marginBottom: tokens.spacing.spacing2
         }
     },
     mb3: {
         true: {
-            marginBottom: "$spacing.m3"
+            marginBottom: tokens.spacing.spacing3
         }
     },
     mb4: {
         true: {
-            marginBottom: "$spacing.m4"
+            marginBottom: tokens.spacing.spacing4
         }
     },
     mb5: {
         true: {
-            marginBottom: "$spacing.m5"
+            marginBottom: tokens.spacing.spacing5
         }
     },
     mb6: {
         true: {
-            marginBottom: "$spacing.m6"
+            marginBottom: tokens.spacing.spacing6
         }
     },
     mb7: {
         true: {
-            marginBottom: "$spacing.m7"
+            marginBottom: tokens.spacing.spacing7
         }
     },
     mb8: {
         true: {
-            marginBottom: "$spacing.m8"
+            marginBottom: tokens.spacing.spacing8
         }
     }
 }
