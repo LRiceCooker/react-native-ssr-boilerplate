@@ -1,6 +1,6 @@
 import React from "react"
 import {Preview} from "@storybook/react"
-//import {Provider} from "@my/app/provider"
+import {Provider} from "jotai"
 import { TamaguiProvider } from '@my/ui'
 import config from '@my/app/tamagui.config'
 
@@ -17,7 +17,9 @@ const preview: Preview = {
   decorators: [
     (Story) => (
       <TamaguiProvider config={config} defaultTheme={'light'}>
-        <Story/>
+        <Provider>
+          <Story/>
+        </Provider>
       </TamaguiProvider>
     )
   ]

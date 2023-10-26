@@ -1,5 +1,7 @@
 import { TamaguiProvider, TamaguiProviderProps } from '@my/ui'
 import { useColorScheme } from 'react-native'
+import MainProvider from './MainProvider'
+
 
 import config from '../tamagui.config'
 
@@ -12,7 +14,9 @@ export function Provider({ children, ...rest }: Omit<TamaguiProviderProps, 'conf
       defaultTheme={'light'}
       {...rest}
     >
-      {children}
+      <MainProvider>
+        {children}
+      </MainProvider>
     </TamaguiProvider>
   )
 }

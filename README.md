@@ -9,6 +9,7 @@ This project is a synthesis of several fantastic technologies:
 - [Tauri](https://tauri.app/): A framework for building desktop apps with web technologies.
 - [Tamagui](https://tamagui.dev/): A tool for creating delightful cross-platform apps.
 - [Solito](https://solito.dev/): A monorepo management system for building crossplateform apps (Expo & Next.js).
+- [Jotai](https://jotai.org/): Primitive and flexible state management for React
 - [Storybook](https://storybook.js.org/): A tool for developing UI components in isolation.
 
 ## Prerequisites
@@ -16,6 +17,7 @@ This project is a synthesis of several fantastic technologies:
 Before diving into this project, make sure you've taken a look at the following resources:
 
 - [Getting Started with Tauri](https://tauri.app/v1/guides/getting-started/setup/next-js/)
+- [Jotai introduction](https://jotai.org/docs/introduction)
 - [Storybook for Next.js](https://storybook.js.org/recipes/next)
 - [Storybook for React Native Web](https://storybook.js.org/addons/@storybook/addon-react-native-web)
 - [Creating a Tamagui App](https://tamagui.dev/docs/guides/create-tamagui-app)
@@ -63,6 +65,7 @@ This project wouldn't be possible without the amazing work these talented indivi
 
 - [@natew](https://github.com/natew) for Tamagui
 - [@nandorojo](https://github.com/nandorojo) for Solito
+- [@dai-shi](https://github.com/dai-shi) for Jotai
 - [@storybookjs](https://github.com/storybookjs) for Storybook
 - [@tauri-apps](https://github.com/tauri-apps) for Tauri
 
